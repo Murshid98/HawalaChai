@@ -790,7 +790,7 @@ section,
 }
 
 .section-title p .description-title {
-  color: var(--accent-color);
+  color: #0b482c;
 }
 
 /*--------------------------------------------------------------
@@ -846,7 +846,7 @@ section,
 }
 
 .hero .btn-watch-video i {
-  color: var(--accent-color);
+  color: #0b482c;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
