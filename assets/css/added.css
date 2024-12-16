@@ -1,0 +1,43 @@
+m-m {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body-m {
+  font-family: Arial, sans-serif;
+}
+
+.menu-container-m {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.menu-button-m {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  flex-basis: 24%; /* Makes 4 buttons per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive - Mobile View */
+@media (max-width: 600px) {
+  .menu-button-m {
+    flex-basis: 45%; /* Makes 2 buttons per row on small screens */
+  }
+}
+
+/* Smaller buttons for extra-small screens */
+@media (max-width: 400px) {
+  .menu-button-m {
+    flex-basis: 100%; /* Stacks the buttons for very small screens */
+  }
+}
